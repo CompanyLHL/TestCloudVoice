@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestCloudVoice</string>
+    <string name="start">Start</string>
+    <string name="bt_stop">Stop</string>
+    <string name="action_settings">测评模式设置</string>
+    <string name="action_elastic">测评松紧设置</string>
+</resources>
