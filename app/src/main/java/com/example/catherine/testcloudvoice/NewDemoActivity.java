@@ -57,7 +57,7 @@ public class NewDemoActivity extends Activity implements IOralEvalSDK.ICallback 
     private FileOutputStream audioFileOut;
     private FileOutputStream opusFileOut;
     private File files;
-    private final String audioName = "testAudio.mp3";  //音频文件名
+    private final String audioName = "testAudio.pcm";  //音频文件名
     private final String opusName = "testOpus";  //opus文件名
     private boolean isPlay = true;     //Play按钮状态标志
 
@@ -353,7 +353,7 @@ public class NewDemoActivity extends Activity implements IOralEvalSDK.ICallback 
         }
         cfg.setBufferLog(true);
         //cfg.setVolumeReport(false);
-        cfg.setMp3Audio(true);//use mp3 in onAudioData() callback, or pcm output.
+//        cfg.setMp3Audio(true);//use mp3 in onAudioData() callback, or pcm output.
 //        cfg.setServiceType("A");
 //        cfg.setScoreAdjuest(1.0f);
         InputStream is = null;
